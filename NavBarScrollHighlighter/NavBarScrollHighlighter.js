@@ -13,8 +13,10 @@
 var pages;
 var activeNavItem;
 var navItems;
+var activeNavBarClassName;
 
-function initNBSH(pageClassName, navBarItemClassName) {
+function initNBSH(pageClassName, navBarItemClassName, activeNavBarClassName) {
+    this.activeNavBarClassName = activeNavBarClassName;
     registerPages(pageClassName);
     registerNavItems(navBarItemClassName);
     onscroll();
@@ -36,10 +38,10 @@ function registerPages(className) {
 
 function setActivePage(navItemIndex) {
     if (activeNavItem) {
-        activeNavItem.classList.remove("active");
+        activeNavItem.classList.remove(activeNavBarClassName);
     }
     activeNavItem = navItems[navItemIndex];
-    activeNavItem.classList.add("active");
+    activeNavItem.classList.add(activeNavBarClassName);
 }
 
 onscroll = () => {

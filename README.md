@@ -1,7 +1,7 @@
 
 ![alt text](/mdImages/JS.png)
 # Collection of JS utilities for websites 
- * Ongoing project that contains JS scripts that can help with developing websites.
+ * Ongoing project that contains JS scripts that can help you with developing websites.
 <br />
 <br />
 <br />

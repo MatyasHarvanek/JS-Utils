@@ -20,7 +20,7 @@
 
   ### Usage
   
-  1. add *initNBSH function(\<page class name\>, \<nav link class name\>, \<nav link active class name\>)* to your JS script
+  1. add *initNBSH function(\<page class name\>, \<nav link class name\>, \<nav link active class name\>, \<id of element that is being scrolled\>)* to your JS script
 
       ![alt text](/mdImages/NBSH-1.png)
 

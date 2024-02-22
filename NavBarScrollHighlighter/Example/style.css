@@ -7,6 +7,14 @@
 
 html {
     scroll-behavior: smooth;
+    max-height: 100vh;
+    overflow-y: hidden;
+}
+
+main {
+    max-height: 100vh;
+
+    overflow-y: scroll;
 }
 
 .page {

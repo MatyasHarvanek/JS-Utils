@@ -1,1 +1,1 @@
-initNBSH("page", "navItem", "active");
+initNBSH("page", "navItem", "active", "main");
